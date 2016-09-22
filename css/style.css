@@ -1,0 +1,136 @@
+.wrapper {
+    margin: 10px auto;
+    width: 455px;
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 65px);
+    grid-template-rows: repeat(9, 65px);
+}
+
+.grid div {
+    border: 3px solid #000;
+}
+
+.grid1 {
+    grid-area: 1/1/2/3;
+    border-left: none;
+}
+
+.grid2 {
+    grid-area: 1/3/2/6;
+}
+
+.grid3 {
+    grid-area: 1/6/2/8;
+}
+
+.grid4 {
+    grid-area: 2/1/4/2;
+}
+
+.grid5 {
+    grid-area: 2/2/6/6;
+}
+
+.grid6 {
+    grid-area: 2/6/4/8;
+
+}
+.grid7 {
+    grid-area: 4/1/7/2;
+}
+
+.grid8 {
+    grid-area: 4/6/6/7;
+}
+
+.grid9 {
+    grid-area: 4/7/6/8;
+}
+
+.grid10 {
+    grid-area:6/2/7/3;
+}
+
+.grid11 {
+    grid-area: 6/3/7/4;
+}
+
+.grid12 {
+    grid-area: 6/4/7/6;
+}
+
+.grid13 {
+    grid-area: 6/6/7/8;
+}
+
+.grid14 {
+    grid-area: 7/1/10/2;
+}
+
+.grid15 {
+    grid-area: 7/2/8/3;
+}
+
+.grid16 {
+    grid-area: 7/3/8/4;
+}
+
+.grid17 {
+    grid-area: 7/4/8/6;
+}
+
+.grid18 {
+    grid-area: 7/6/9/8;
+}
+
+.grid19 {
+    grid-area: 8/2/10/4;
+}
+.grid20 {
+    grid-area: 8/4/9/6;
+}
+
+.grid21 {
+    grid-area: 9/4/10/8;
+}
+
+div.w {
+    background-color: #fff;
+}
+
+div.y {
+    background-color: #ff0;
+}
+
+div.c {
+    background-color: #00f;
+}
+
+div.r {
+    background-color: #f00;
+}
+
+div.b {
+    background-color: #3b3b3b;
+}
+
+div.l {
+    border-left: none;
+}
+
+div.p {
+    border-right: none;
+}
+
+div.t {
+    border-top: none;
+}
+
+div.n {
+    border-bottom: none;
+}
+
+
